@@ -2,7 +2,7 @@
 
 class DataManager:
     """
-    This class was designed to parse each .txt, .csv files into data list for data processing.
+    This class was designed to parse each .txt, .csv files into data list for data processing
     """
     @staticmethod
     def load_data(url: str, miss_first_line: bool) -> list:
