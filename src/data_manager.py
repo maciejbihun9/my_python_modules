@@ -1,3 +1,7 @@
+from numpy import *
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
+from sklearn import linear_model, datasets, model_selection
 
 
 class DataManager:
@@ -30,3 +34,41 @@ class DataManager:
         finally:
             file.close()
         return data
+
+    @staticmethod
+    def categorize_data(data: ndarray, categorical_mask: list):
+        """
+        Split the data in to:
+        - data_non_categoricals
+        - data_categoricals
+        Assign numerical values to labeled type values
+        :param data: ndarray of data without targets
+        :param categorical_mask: list with variable categories
+        :return: data_non_categoricals, data_categoricals lists
+        """
+        enc = LabelEncoder()
+        for i in range(0, data.shape[1]):
+            if (categorical_mask[i]):
+                label_encoder = enc.fit(data[:, i])
+                print("Klasy kategorialne:", label_encoder.classes_)
+                integer_classes = label_encoder.transform(label_encoder.classes_)
+                print("Klasy całkowito-liczbowe:", integer_classes)
+                t = label_encoder.transform(data[:, i])
+                data[:, i] = t
+
+        mask = ones(data.shape, dtype=bool)
+        for i in range(0, data.shape[1]):
+            if (categorical_mask[i]):
+                mask[:, i] = False
+
+        # non categorical data
+        data_non_categoricals = data[:, all(mask, axis=0)]
+
+        # categorical data
+        data_categoricals = data[:, ~all(mask, axis=0)]
+
+        return data_non_categoricals, data_categoricals
+
+
+
+
