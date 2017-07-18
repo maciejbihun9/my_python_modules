@@ -1,14 +1,13 @@
 
 
 class DataManager:
-    """
-    This class was designed to parse each .txt, .csv files into data list for data processing
-    """
+
     @staticmethod
-    def load_data(url: str, miss_first_line: bool) -> list:
+    def load_data(url: str, miss_first_line: bool, do_convert: bool) -> list:
         """
         :param url: file to parse url
         :param miss_first_line: miss first line bool value
+        :param do_convert: Make conversion to convenient types
         :return: parsed data as data_list
         """
         try:
@@ -22,7 +21,8 @@ class DataManager:
                 for line_el_index in range(len(line_elements)):
                     item = line_elements[line_el_index]
                     try:
-                        item = float(line_elements[line_el_index])
+                        if do_convert:
+                            item = float(line_elements[line_el_index])
                     except:
                         pass
                     data_item.extend([item])
