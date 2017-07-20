@@ -3,6 +3,8 @@ import unittest
 from src.normalizer import Normalizer
 from src.data_manager import DataManager
 from numpy import *
+from src.math_oper import MathOper
+from src.norm_type import NormType
 
 class NormalizerTest(unittest.TestCase):
 
@@ -18,5 +20,28 @@ class NormalizerTest(unittest.TestCase):
         DataManager.categorize_data(self.data, categories)
 
     def test_min_max_norm(self):
-        data_narmalized = Normalizer.min_max_norm(self.data.astype(float), [4])
-        print(data_narmalized)
+        data_normalized = Normalizer.normalize(self.data.astype(float), NormType.min_max_norm, [4])
+        true_array = MathOper.values_between(data_normalized[:, 4], 0, 1)
+        result = False in true_array
+        self.assertFalse(result)
+
+        data_normalized = Normalizer.normalize(self.data.astype(float), NormType.min_max_norm)
+        true_array = MathOper.values_between(data_normalized, 0, 1)
+        result = False in true_array
+        self.assertFalse(result)
+
+        data_normalized = Normalizer.normalize(self.data.astype(float), NormType.stand_norm)
+        print(data_normalized)
+
+        data_normalized = Normalizer.normalize(self.data.astype(float), NormType.unit_norm, [3])
+        true_array = MathOper.values_between(data_normalized[:, 3], 0, 1)
+        result = False in true_array
+        self.assertFalse(result)
+
+        data_normalized = Normalizer.normalize(self.data.astype(float), NormType.min_max_norm)
+        true_array = MathOper.values_between(data_normalized, 0, 1)
+        result = False in true_array
+        self.assertFalse(result)
+
+
+
