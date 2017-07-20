@@ -69,6 +69,13 @@ class DataManager:
 
         return data_non_categoricals, data_categoricals
 
-
-
-
+    @staticmethod
+    def train_test_split(inputs: ndarray, target: ndarray, test_size: float, random_state: int):
+        """
+        :param inputs:
+        :param target:
+        :param test_size:
+        :param random_state:
+        :return: X_train, X_test, y_train, y_test ndarrays.
+        """
+        return model_selection.train_test_split(inputs, target, test_size=test_size, random_state=random_state)
