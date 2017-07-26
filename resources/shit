@@ -1,0 +1,197 @@
+OK!
+
+We use cookies to make this site work smoothly. Our partners use them for advertising and social media. By using our site, you agree to this. More info
+Explain that Stuff
+You are here: Home page > Computers > The Internet
+
+    Home A-Z index Get the book Follow us Random article Timeline Teaching guide About us Privacy policy
+
+Advertisement
+
+Conceptual artwork showing Internet connections stretching across Earth.
+The Internet
+
+    Tweet
+
+by Chris Woodford. Last updated: August 16, 2016.
+
+When you chat to somebody on the Net or send them an e-mail, do you ever stop to think how many different computers you are using in the process? There's the computer on your own desk, of course, and another one at the other end where the other person is sitting, ready to communicate with you. But in between your two machines, making communication between them possible, there are probably about a dozen other computers bridging the gap. Collectively, all the world's linked-up computers are called the Internet. How do they talk to one another? Let's take a closer look!
+
+Photo: What most of us think of as the Internet—Google, eBay, and all the rest of it—is actually the World Wide Web. The Internet is the underlying telecommunication network that makes the Web possible. If you use broadband, your computer is probably connected to the Internet all the time it's on.
+What is the Internet?
+
+Bar chart showing total number of countries online between 1988 and 2003
+
+Global communication is easy now thanks to an intricately linked worldwide computer network that we call the Internet. In less than 20 years, the Internet has expanded to link up around 210 different nations. Even some of the world's poorest developing nations are now connected.
+
+Lots of people use the word "Internet" to mean going online. Actually, the "Internet" is nothing more than the basic computer network. Think of it like the telephone network or the network of highways that criss-cross the world. Telephones and highways are networks, just like the Internet. The things you say on the telephone and the traffic that travels down roads run on "top" of the basic network. In much the same way, things like the World Wide Web (the information pages we can browse online), instant messaging chat programs, MP3 music downloading, and file sharing are all things that run on top of the basic computer network that we call the Internet.
+
+The Internet is a collection of standalone computers (and computer networks in companies, schools, and colleges) all loosely linked together, mostly using the telephone network. The connections between the computers are a mixture of old-fashioned copper cables, fiber-optic cables (which send messages in pulses of light), wireless radio connections (which transmit information by radio. waves), and satellite links.
+
+Photo: Countries online: Between 1988 and 2003, virtually every country in the world went online. Although most countries are now "wired," that doesn't mean everyone is online in all those countries, as you can see from the next chart, below. Source: Redrawn by Explainthatstuff.com from ITU World Telecommunication Development Report: Access Indicators for the Information Society: Summary, 2003. I've not updated this figure because the message is pretty clear: virtually all countries now have at least some Internet access.
+What does the Internet do?
+
+Bar chart comparing Internet access across different world regions and socio-economic groupings in 2015.
+
+The Internet has one very simple job: to move computerized information (known as data) from one place to another. That's it! The machines that make up the Internet treat all the information they handle in exactly the same way. In this respect, the Internet works a bit like the postal service. Letters are simply passed from one place to another, no matter who they are from or what messages they contain. The job of the mail service is to move letters from place to place, not to worry about why people are writing letters in the first place; the same applies to the Internet.
+
+Just like the mail service, the Internet's simplicity means it can handle many different kinds of information helping people to do many different jobs. It's not specialized to handle emails, Web pages, chat messages, or anything else: all information is handled equally and passed on in exactly the same way. Because the Internet is so simply designed, people can easily use it to run new "applications"—new things that run on top of the basic computer network. That's why, when two European inventors developed Skype, a way of making telephone calls over the Net, they just had to write a program that could turn speech into Internet data and back again. No-one had to rebuild the entire Internet to make Skype possible.
+
+Photo: Internet use around the world: This chart compares the estimated percentage of households with Internet access for different world regions and economic groupings. Although there have been dramatic improvements in all regions, there are still great disparities between the "richer" nations and the "poorer" ones. The world average, shown by the black-outlined orange center bar, is still only 46.4 out of 100 (less than half). Not surprisingly, richer nations are to the left of the average and poorer ones to the right. Source: Redrawn from Chart 1.5 of the Executive Summary of Measuring the Information Society 2015, International Telecommunication Union (ITU).
+How does Internet data move?
+Circuit switching
+
+Much of the Internet runs on the ordinary public telephone network—but there's a big difference between how a telephone call works and how the Internet carries data. If you ring a friend, your telephone opens a direct connection (or circuit) between your home and theirs. If you had a big map of the worldwide telephone system (and it would be a really big map!), you could theoretically mark a direct line, running along lots of miles of cable, all the way from your phone to the phone in your friend's house. For as long as you're on the phone, that circuit stays permanently open between your two phones. This way of linking phones together is called circuit switching. In the old days, when you made a call, someone sitting at a "switchboard" (literally, a board made of wood with wires and sockets all over it) pulled wires in and out to make a temporary circuits that connected one home to another. Now the circuit switching is done automatically by an electronic telephone exchange.
+
+If you think about it, circuit switching is a really inefficient way to use a network. All the time you're connected to your friend's house, no-one else can get through to either of you by phone. (Imagine being on your computer, typing an email for an hour or more—and no-one being able to email you while you were doing so.) Suppose you talk very slowly on the phone, leave long gaps of silence, or go off to make a cup of coffee. Even though you're not actually sending information down the line, the circuit is still connected—and still blocking other people from using it.
+Packet switching
+
+The Internet could, theoretically, work by circuit switching—and some parts of it still do. If you have a traditional "dialup" connection to the Net (where your computer dials a telephone number to reach your Internet service provider in what's effectively an ordinary phone call), you're using circuit switching to go online. You'll know how maddeningly inefficient this can be. No-one can phone you while you're online; you'll be billed for every second you stay on the Net; and your Net connection will work relatively slowly.
+
+Most data moves over the Internet in a completely different way called packet switching. Suppose you send an email to someone in China. Instead of opening up a long and convoluted circuit between your home and China and sending your email down it all in one go, the email is broken up into tiny pieces called packets. Each one is tagged with its ultimate destination and allowed to travel separately. In theory, all the packets could travel by totally different routes. When they reach their ultimate destination, they are reassembled to make an email again.
+
+Packet switching is much more efficient than circuit switching. You don't have to have a permanent connection between the two places that are communicating, for a start, so you're not blocking an entire chunk of the network each time you send a message. Many people can use the network at the same time and since the packets can flow by many different routes, depending on which ones are quietest or busiest, the whole network is used more evenly—which makes for quicker and more efficient communication all round.
+How packet switching works
+
+Simple artwork showing how circuit switching works
+What is circuit switching?
+
+Suppose you want to move home from the United States to Africa and you decide to take your whole house with you—not just the contents, but the building too! Imagine the nightmare of trying to haul a house from one side of the world to the other. You'd need to plan a route very carefully in advance. You'd need roads to be closed so your house could squeeze down them on the back of a gigantic truck. You'd also need to book a special ship to cross the ocean. The whole thing would be slow and difficult and the slightest problem en-route could slow you down for days. You'd also be slowing down all the other people trying to travel at the same time. Circuit switching is a bit like this. It's how a phone call works.
+
+Picture: Circuit switching is like moving your house slowly, all in one go, along a fixed route between two places.
+What is packet switching?
+
+Simple artwork showing how packet switching works
+
+Is there a better way? Well, what if you dismantled your home instead, numbered all the bricks, put each one in an envelope, and mailed them separately to Africa? All those bricks could travel by separate routes. Some might go by ship; some might go by air. Some might travel quickly; others slowly. But you don't actually care. All that matters to you is that the bricks arrive at the other end, one way or another. Then you can simply put them back together again to recreate your house. Mailing the bricks wouldn't stop other people mailing things and wouldn't clog up the roads, seas, or airways. Because the bricks could be traveling "in parallel," over many separate routes at the same time, they'd probably arrive much quicker. This is how packet switching works. When you send an email or browse the Web, the data you send is split up into lots of packets that travel separately over the Internet.
+
+Picture: Packet switching is like breaking your house into lots of bits and mailing them in separate packets. Because the pieces travel separately, in parallel, they usually go more quickly and make better overall use of the network.
+How computers do different jobs on the Internet
+
+Ethernet cable
+
+Photo: The Internet is really nothing more than a load of wires! Much of the Internet's traffic moves along ethernet networking cables like this one.
+
+There are hundreds of millions of computers on the Net, but they don't all do exactly the same thing. Some of them are like electronic filing cabinets that simply store information and pass it on when requested. These machines are called servers. Machines that hold ordinary documents are called file servers; ones that hold people's mail are called mail servers; and the ones that hold Web pages are Web servers. There are tens of millions of servers on the Internet.
+
+A computer that gets information from a server is called a client. When your computer connects over the Internet to a mail server at your ISP (Internet Service Provider) so you can read your messages, your computer is the client and the ISP computer is the server. There are far more clients on the Internet than servers—probably getting on for a billion by now!
+
+When two computers on the Internet swap information back and forth on a more-or-less equal basis, they are known as peers. If you use an instant messaging program to chat to a friend, and you start swapping party photos back and forth, you're taking part in what's called peer-to-peer (P2P) communication. In P2P, the machines involved sometimes act as clients and sometimes as servers. For example, if you send a photo to your friend, your computer is the server (supplying the photo) and the friend's computer is the client (accessing the photo). If your friend sends you a photo in return, the two computers swap over roles.
+
+Apart from clients and servers, the Internet is also made up of intermediate computers called routers, whose job is really just to make connections between different systems. If you have several computers at home or school, you probably have a single router that connects them all to the Internet. The router is like the mailbox on the end of your street: it's your single point of entry to the worldwide network.
+How the Net really works: TCP/IP and DNS
+
+The real Internet doesn't involving moving home with the help of envelopes—and the information that flows back and forth can't be controlled by people like you or me. That's probably just as well given how much data flows over the Net each day—roughly 3 billion emails and a huge amount of traffic downloaded from the world's 250 million websites by its 2 billion users. If everything is sent by packet-sharing, and no-one really controls it, how does that vast mass of data ever reach its destination without getting lost?
+
+The answer is called TCP/IP, which stands for Transmission Control Protocol/Internet Protocol. It's the Internet's fundamental "control system" and it's really two systems in one. In the computer world, a "protocol" is simply a standard way of doing things—a tried and trusted method that everybody follows to ensure things get done properly. So what do TCP and IP actually do?
+
+Internet Protocol (IP) is simply the Internet's addressing system. All the machines on the Internet—yours, mine, and everyone else's—are identified by an Internet Protocol (IP) address that takes the form of a series of digits separated by dots or colons. If all the machines have numeric addresses, every machine knows exactly how (and where) to contact every other machine. When it comes to websites, we usually refer to them by easy-to-remember names (like www.explainthatstuff.com) rather than their actual IP addresses—and there's a relatively simple system called DNS (Domain Name System) that enables a computer to look up the IP address for any given website. In the original version of IP, known as IPv4, addresses consisted of four pairs of digits, such as 12.34.56.78 or 123.255.212.55, but the rapid growth in Internet use meant that all possible addresses were used up by January 2011. That has prompted the introduction of a new IP system with more addresses, which is known as IPv6, where each address is much longer and looks something like this: 123a:b716:7291:0da2:912c:0321:0ffe:1da2.
+
+The other part of the control system, Transmission Control Protocol (TCP), sorts out how packets of data move back and forth between one computer (in other words, one IP address) and another. It's TCP that figures out how to get the data from the source to the destination, arranging for it to be broken into packets, transmitted, resent if they get lost, and reassembled into the correct order at the other end.
+A brief history of the Internet
+
+    1844: Samuel Morse transmits the first electric telegraph message, eventually making it possible for people to send messages around the world in a matter of minutes.
+    1876: Alexander Graham Bell (and various rivals) develop the telephone.
+    1940: George Stibitz accesses a computer in New York using a teletype (remote terminal) in New Hampshire, connected over a telephone line.
+    1945: Vannevar Bush, a US government scientist, publishes a paper called As We May Think, anticipating the development of the World Wide Web by half a century.
+    1958: Modern modems are developed at Bell Labs. Within a few years, AT&T and Bell begin selling them commercially for use on the public telephone system.
+    1964: Paul Baran, a researcher at RAND, invents the basic concept of computers communicating by sending "message blocks" (small packets of data); Welsh physicist Donald Davies has a very similar idea and coins the name "packet switching," which sticks.
+    1963: J.C.R. Licklider envisages a network that can link people and user-friendly computers together.
+    1964: Larry Roberts, a US computer scientist, experiments with connecting computers over long distances.
+    1960s: Ted Nelson invents hypertext, a way of linking together separate documents that eventually becomes a key part of the World Wide Web.
+    1966: Inspired by the work of Licklider, Bob Taylor of the US government's Advanced Research Projects Agency (ARPA) hires Larry Roberts to begin developing a national computer network.
+    1969: The ARPANET computer network is launched, initially linking together four scientific institutions in California and Utah.
+    1971: Ray Tomlinson sends the first email, introducing the @ sign as a way of separating a user's name from the name of the computer where their mail is stored.
+    1973: Bob Metcalfe invents Ethernet, a convenient way of linking computers and peripherals (things like printers) on a local network.
+    1974: Vinton Cerf and Bob Kahn write an influential paper describing how computers linked on a network they called an "internet" could send messages via packet switching, using a protocol (set of formal rules) called TCP (Transmission Control Protocol).
+    1978: TCP is improved by adding the concept of computer addresses (Internet Protocol or IP addresses) to which Internet traffic can be routed. This lays the foundation of TCP/IP, the basis of the modern Internet.
+    1978: Ward Christensen sets up Computerized Bulletin Board System (a forerunner of topic-based Internet forums, groups, and chat rooms) so computer hobbyists can swap information.
+    1983: TCP/IP is officially adopted as the standard way in which Internet computers will communicate.
+    1982–1984: DNS (Domain Name System) is developed, allowing people to refer to unfriendly IP addresses (12.34.56.78) with friendly and memorable names (like google.com).
+    1986: The US National Science Foundation (NSF) creates its own network, NSFnet, allowing universities to piggyback onto the ARPANET's growing infrastructure.
+    1988: Finish computer scientist Jarkko Oikarinen invents IRC (Internet Relay Chat), which allows people to create "rooms" where they can talk about topics in real-time with like-minded online friends.
+    1989: The Peapod grocery store pioneers online grocery shopping and e-commerce.
+    1989: Tim Berners-Lee invents the World Wide Web at CERN, the European particle physics laboratory in Switzerland. It owes a considerable debt to the earlier work of Ted Nelson and Vannevar Bush.
+    1993: Marc Andreessen writes Mosaic, the first user-friendly web browser, which later evolves into Netscape and Mozilla.
+    1993: Oliver McBryan develops the World Wide Web Worm, one of the first search engines.
+    1994: People soon find they need help navigating the fast-growing World Wide Web. Brian Pinkerton writes WebCrawler, a more sophisticated search engine and Jerry Yang and David Filo launch Yahoo!, a directory of websites organized in an easy-to-use, tree-like hierarchy.
+    1995: E-commerce properly begins when Jeff Bezos founds Amazon.com and Pierre Omidyar sets up eBay.
+    1996: ICQ becomes the first user-friendly instant messaging (IM) system on the Internet.
+    1997: Jorn Barger publishes the first blog (web-log).
+    1998: Larry Page and Sergey Brin develop a search engine called BackRub that they quickly decide to rename Google.
+    2004: Harvard student Mark Zuckerberg revolutionizes social networking with Facebook, an easy-to-use website that connects people with their friends.
+    2006: Jack Dorsey and Evan Williams found Twitter, an even simpler "microblogging" site where people share their thoughts and observations in off-the-cuff, 140-character status messages.
+
+    Tweet
+
+Sponsored links
+
+Find out more
+On this website
+
+    BitTorrent
+    Broadband
+    History of computers
+    Modems
+    Voice Over Internet Protocol (VOIP) (covers Internet telephony and Skype)
+    Wireless Internet
+    World Wide Web (WWW)
+
+Books
+General overviews
+
+    A History of the Internet and the Digital Future by Johnny Ryan. Reaktion Books, 2010. A wide-ranging look at how Internet technology is changing everything from culture and politics to shopping and war.
+    The Internet: A Historical Encyclopedia by Christos Moschovitis, Hilary Poole, Laura Lambert, and Chris Woodford. ABC-Clio, 2005. A comprehensive (though now slightly dated) three-volume guide to the history and impacts of the Internet and the people who made it possible. (I was the author of the second of the three volumes, covering social impacts.)
+    A Brief History of the Future: Origins of the Internet by John Naughton. Phoenix, 2000. Dated, but worth a look for the early history.
+    Who Controls the Internet? Illusions of a Borderless World by Jack Goldsmith and Tim Wu. Oxford University Press, 2006. Will governments be forced to regulate the Internet as it challenges our traditional conception of a geographically divided world?
+
+More technical
+
+    TCP/IP For Dummies by Candace Leiden, Marshall Wilensky. Dummies/Wiley, 2009. One of the simpler introductions to the Internet protocol. However, you might find the light-hearted writing style offputting.
+    TCP/IP Unleashed by Karanjit Siyan, Tim Parker. Sams, 2002. A more serious treatment than the Dummies book.
+    TCP/IP Network Administration by Craig Hunt. O'Reilly Media, 2002. A much more detailed guide to TCP/IP for computer networking students and professionals.
+
+Articles
+
+    Bridging a Digital Divide That Leaves Schoolchildren Behind by Cecilia Kang. The New York Times. February 23, 1016. Lack of Internet access is punishing children's education, even in richer nations like the United States.
+    Internet access is 'a fundamental right': BBC News, 8 March 2010. Some 80 percent of the world's people think access to the Internet is a fundamental right.
+    Superpower: Visualizing the Internet: BBC News, January 2010. What are the world's top websites in search, social networking, retail, and media. Some great interactive graphics.
+    Overhaul of net addresses begins: BBC News, 4 February 2008. How the world ran out of IP addresses, prompting the development of IPv6.
+    The Tech Lab: Vint Cerf: One of the Internet's founding father's explains how the Internet has developed and where it's going next.
+    Tanzanian women get online bug: BBC News, 18 November 2002. This old but interesting article paints a vivid picture of how Internet access is empowering women in Africa.
+
+Facts, statistics, and reports
+
+    World Bank: Information and Communication Technologies: If you're interested in how the world is going online, and how the international community is making efforts to improve Internet access in developing countries, the World Bank is a good place to start your research. You'll find lots of useful reports, facts, charts, and statistics.
+    Measuring the Information Society 2015: One of the most recent International Telecommunications Union reports, with global and regional analysis of Internet trends (particularly in developing countries), and some discussion of the Internet of Things.
+    World Telecommunication/ICT Development Report 2010: Monitoring the WSIS targets: 9th Edition, 2010: A detailed report from the International Telecommunications Union that charts the spread of telephone and Internet technology around the world, especially in key areas such as government, healthcare, and education.
+    Internet World Stats: A good collection of tables and charts showing patterns of Internet use around the world.
+
+Please do NOT copy our articles onto blogs and other websites
+
+Text copyright © Chris Woodford 2006, 2016. All rights reserved. Full copyright notice and terms of use.
+Follow us
+
+    Follow us on Facebook Google+ RSS Flickr
+
+Rate this page
+
+Please rate or give feedback on this page and I will make a donation to WaterAid.
+Share this page
+
+Press CTRL + D to bookmark this page for later or tell your friends about it with:
+
+    Facebook Delicious Digg Reddit StumbleUpon Google Bookmarks Twitter Email Google+
+
+Cite this page
+
+Woodford, Chris. (2011) Internet. Retrieved from http://www.explainthatstuff.com/internet.html. [Accessed (Insert date here)]
+Explain that Stuff
+More to explore on our website...
+
+    Communications Computers Electricity & electronics Energy Engineering Environment
+    Gadgets Home life Materials Science Tools & instruments Transportation
+
+    Home A-Z index Get the book Follow us Random article Timeline Teaching guide About us Privacy policy
+
+↑ Back to top
